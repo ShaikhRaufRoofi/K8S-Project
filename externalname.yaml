@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  name: en-pod
+spec:
+  selector:
+    type: ExternalName  
+    externalName: example.com
