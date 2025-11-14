@@ -16,3 +16,7 @@ spec:
   type: NodePort
   ports:
     - port: 80
+# To check which port number running we use below command
+# kubectl get svc
+# If it is running in any namespace, use below command
+# kubectl get svc -n <yournamespace>
